@@ -1,0 +1,9 @@
+---
+Checks:
+  - "-*"
+  - "misc-*"
+WarningsAsErrors: ''
+HeaderFileExtensions:         ['hpp']
+ImplementationFileExtensions: ['cpp']
+FormatStyle: google
+---
