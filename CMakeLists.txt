@@ -2,6 +2,7 @@ cmake_minimum_required(VERSION 3.20)
 
 project(misc-include LANGUAGES CXX)
 set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_COMPILER clang++-21)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 add_executable(
