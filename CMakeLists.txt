@@ -9,5 +9,6 @@ add_executable(
         misc-include
         # Entry point
         main.cpp
+        A.cpp
 )
 target_include_directories(misc-include PUBLIC ${CMAKE_SOURCE_DIR})

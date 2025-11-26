@@ -1,6 +1,12 @@
 #pragma once
 
-#include <string>
+#include <thread>
 #include <vector>
 
-std::vector<std::string> AFunc() { return std::vector<std::string>(); }
+class A {
+    public:
+        A();
+    private:
+        std::vector<int> myVector;
+        std::thread myThread;
+};
